@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/products
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Nov 2023 18:40:19 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1003'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 684482c0-d8c5-4bce-ba57-315c0430d72d
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Content-Length:
+      - '1003'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O97fCEQ1PHcEggw=
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - MMXX
+      X-Content-Type-Options:
+      - nosniff
+      Link:
+      - ''
+      X-Amzn-Remapped-Date:
+      - Sat, 25 Nov 2023 18:40:19 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"clientProductGuid":"bf11178c-e3ac-4d90-99f3-b984de208a3d","productGuid":"7dc7244f-6c5a-47d2-b4aa-fada3457e0e7","productName":"TazAPI
+        - Employment Product - All Required Fields","dateModified":1698960059000,"modifiedBy":"Support
+        TazWorks 126","usesQuickapp":true},{"clientProductGuid":"02572b27-ba50-4ccd-88c9-73b00d597c12","productGuid":"5be23a23-fcb4-4507-a460-086fb963f6af","productName":"TazAPI
+        - Tenant Product","dateModified":1698960054000,"modifiedBy":"Support TazWorks
+        126","usesQuickapp":true},{"clientProductGuid":"66d221d8-6783-4c25-91f3-2a117ae554fa","productGuid":"906281b9-064d-4077-a42b-4e7951f2aa29","productName":"TazAPI
+        - Employment Product","dateModified":1698960064000,"modifiedBy":"Support TazWorks
+        126","usesQuickapp":true},{"clientProductGuid":"52cc80b3-bb55-4d81-9fa1-6c0f3c7a57e0","productGuid":"b8cda2a1-34c6-4702-a7a0-1b28d82e9159","productName":"WayHome
+        - Credit and Background Package","dateModified":1699383596000,"modifiedBy":"Support
+        TazWorks 126","usesQuickapp":true}]'
+  recorded_at: Sat, 25 Nov 2023 18:40:19 GMT
+recorded_with: VCR 6.2.0

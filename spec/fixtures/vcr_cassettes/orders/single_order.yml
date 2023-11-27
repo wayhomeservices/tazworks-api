@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/orders/f0ec9cf8-a4ad-4e50-9d1f-8871e3db5a26
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Nov 2023 19:35:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1442'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 5c0724ea-7c91-4293-8adf-c51c0daaadd9
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Content-Length:
+      - '1442'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O-DjYFZaPHcEggw=
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      X-Amzn-Remapped-Server:
+      - MMXX
+      Cache-Control:
+      - no-store
+      X-Content-Type-Options:
+      - nosniff
+      X-Amzn-Remapped-Date:
+      - Sat, 25 Nov 2023 19:35:23 GMT
+    body:
+      encoding: UTF-8
+      string: '{"orderGuid":"f0ec9cf8-a4ad-4e50-9d1f-8871e3db5a26","fileNumber":572352,"orderStatus":"complete","orderType":"Tenant","orderedDate":1698960038000,"generalReportReference":"MID-GROUP","externalIdentifier":"10001a","completedDate":1698960040000,"applicantName":"MAY,
+        LOUISE M.","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"TazAPI
+        - Tenant Product","requestedBy":"Auto Setup Instance - Auto Setup Sandbox
+        API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=d73vjnrmga2pr42lmu5aecacin7k88cimcadEQBQxs1RnMVTUXNy3btD4AuB2eJlKey84SCdqRbG0Rfz&y=572352&z=1","createdDate":1698960038000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1698960040000,"clientProductGuid":"02572b27-ba50-4ccd-88c9-73b00d597c12","applicantEmail":"API-SANDBOX@TAZWORKS.COM","applicantPosition":"HEAD
+        WAITER","applicantDateOfBirth":"1992-10-22","applicantPhone":"(555) 565-4343","applicantGuid":"a86d2b81-7065-4c4e-bc16-cb5ce0fbd49f","totalCharges":0.0,"orderNotes":"Some
+        interesting notes for the order.","includedSearches":["National Criminal Database
+        Alias Search","Credit Report"],"quickappInfo":{"daysActive":1,"dateExpires":1698898883000,"notificationsSentByEmail":0,"emailUsed":"API-SANDBOX@TAZWORKS.COM","textsSent":0,"remindersSent":0}}'
+  recorded_at: Sat, 25 Nov 2023 19:35:23 GMT
+recorded_with: VCR 6.2.0

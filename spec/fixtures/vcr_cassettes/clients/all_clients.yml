@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.instascreen.net/v1/clients
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 24 Nov 2023 22:36:17 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '362'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 1acd8272-ef39-4b8f-a26d-cfe9ed68858e
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Content-Length:
+      - '362'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O7LHRFaFPHcEK7w=
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - MMXX
+      X-Content-Type-Options:
+      - nosniff
+      Link:
+      - ''
+      X-Amzn-Remapped-Date:
+      - Fri, 24 Nov 2023 22:36:17 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"clientGuid":"34f3264e-138a-47d1-987c-f2673a569b96","name":"Auto
+        Client - App Auto Setup App - Sandbox API account for Rentw","code":"8e89dcde-cdcb-4926-81bd-a70f381307d3","status":"ACTIVE","contactName":"Bob","contactEmail":"success@simulator.amazonses.com","createdBy":"Support
+        TazWorks 126","modifiedDate":1698165708000,"modifiedBy":"Support TazWorks
+        126"}]'
+  recorded_at: Fri, 24 Nov 2023 22:36:17 GMT
+recorded_with: VCR 6.2.0

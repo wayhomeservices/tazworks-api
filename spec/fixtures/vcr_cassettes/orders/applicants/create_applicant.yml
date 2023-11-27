@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/applicants
+    body:
+      encoding: UTF-8
+      string: '{"firstName":"Bob","lastName":"Smith","email":"bob.smith@gmail.com","clientGuid":"34f3264e-138a-47d1-987c-f2673a569b96"}'
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Content-Length:
+      - '120'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Sat, 25 Nov 2023 06:46:01 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '498'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - b4197206-b46f-4019-87a5-29111637507e
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Content-Length:
+      - '498'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O8S2aHYrvHcEHMg=
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      X-Amzn-Remapped-Server:
+      - MMXX
+      Cache-Control:
+      - no-store
+      X-Content-Type-Options:
+      - nosniff
+      X-Amzn-Remapped-Date:
+      - Sat, 25 Nov 2023 06:46:01 GMT
+    body:
+      encoding: UTF-8
+      string: '{"applicantGuid":"b19ef9aa-e920-4d42-837d-6e0f457ed99e","textingEnabled":false,"firstName":"Bob","noMiddleName":false,"lastName":"Smith","email":"bob.smith@gmail.com","createdDate":1700894760987,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700894760994,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1,"addresses":[],"employment":[],"education":[],"aliases":[],"professionalLicenses":[],"references":[]}'
+  recorded_at: Sat, 25 Nov 2023 06:46:00 GMT
+recorded_with: VCR 6.2.0

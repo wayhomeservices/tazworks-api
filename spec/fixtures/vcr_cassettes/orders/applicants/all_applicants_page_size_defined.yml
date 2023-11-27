@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/applicants?size=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 24 Nov 2023 23:05:35 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1227'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - fc251730-ec6d-4d23-a16c-2026b56a72cc
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Content-Length:
+      - '1227'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O7PZ8FEmvHcESdA=
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - MMXX
+      X-Content-Type-Options:
+      - nosniff
+      Link:
+      - <api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/applicants?page=1&size=3>;
+        rel="next", <api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/applicants?page=8&size=3>;
+        rel="last"
+      X-Amzn-Remapped-Date:
+      - Fri, 24 Nov 2023 23:05:35 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"applicantGuid":"a86d2b81-7065-4c4e-bc16-cb5ce0fbd49f","firstName":"Louise","middleName":"M","lastName":"May","gender":"FEMALE","dateOfBirth":"1992-10-22","email":"api-sandbox@tazworks.com","phoneNumber":"(555)
+        565-4343","textingEnabled":false,"createdDate":1698812182000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1698812182000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"2dda8741-b551-4c10-b96e-cf6c215ebd82","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700847269000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700847269000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"45f50497-94a5-4a09-8fe2-ca9f50269f15","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700847898000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700847898000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1}]'
+  recorded_at: Fri, 24 Nov 2023 23:05:35 GMT
+recorded_with: VCR 6.2.0

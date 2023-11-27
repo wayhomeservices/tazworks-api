@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/orders
+    body:
+      encoding: UTF-8
+      string: '{"applicantGuid":"b19ef9aa-e920-4d42-837d-6e0f457ed99e","clientProductGuid":"52cc80b3-bb55-4d81-9fa1-6c0f3c7a57e0","useQuickApp":true}'
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Content-Length:
+      - '134'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Sat, 25 Nov 2023 20:10:53 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '869'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - fe998695-94ba-487f-a3ae-6182b4b3f664
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Content-Length:
+      - '869'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O-IwEEVePHcEI1Q=
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      X-Amzn-Remapped-Server:
+      - MMXX
+      Cache-Control:
+      - no-store
+      X-Content-Type-Options:
+      - nosniff
+      X-Amzn-Remapped-Date:
+      - Sat, 25 Nov 2023 20:10:53 GMT
+    body:
+      encoding: UTF-8
+      string: '{"orderGuid":"32d9351f-186e-4320-a828-f3afbd584c3a","fileNumber":576468,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700943053000,"applicantName":"SMITH,
+        BOB","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=nlh9v7cm9otlsv64t3d5g5q0ohtstqg1r6hg3czAZvGEFmw4weK51o1b4kOxJorJJXtD7nBinCjIoovCI&y=576468&z=1","createdDate":1700943053000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700943053112,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "}'
+  recorded_at: Sat, 25 Nov 2023 20:10:53 GMT
+recorded_with: VCR 6.2.0

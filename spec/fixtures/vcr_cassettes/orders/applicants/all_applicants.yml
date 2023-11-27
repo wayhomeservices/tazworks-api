@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/applicants
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 24 Nov 2023 23:03:04 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '8352'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - f1e9bc5d-a5f4-406f-8843-a207d6e23a97
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O7PCYFVKvHcEILQ=
+      Vary:
+      - origin,access-control-request-method,access-control-request-headers,accept-encoding
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - MMXX
+      X-Content-Type-Options:
+      - nosniff
+      Link:
+      - ''
+      X-Amzn-Remapped-Date:
+      - Fri, 24 Nov 2023 23:03:04 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"applicantGuid":"a86d2b81-7065-4c4e-bc16-cb5ce0fbd49f","firstName":"Louise","middleName":"M","lastName":"May","gender":"FEMALE","dateOfBirth":"1992-10-22","email":"api-sandbox@tazworks.com","phoneNumber":"(555)
+        565-4343","textingEnabled":false,"createdDate":1698812182000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1698812182000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"2dda8741-b551-4c10-b96e-cf6c215ebd82","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700847269000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700847269000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"45f50497-94a5-4a09-8fe2-ca9f50269f15","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700847898000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700847898000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"c5e250aa-3177-45ae-b5b7-622943cfc5ec","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700368722000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700368722000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"d82cb510-2648-4604-b8f5-f5e88fb270d1","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700408354000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700408354000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"8ed242eb-aeee-4c67-bd57-c092b084d575","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700408493000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700408493000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"28e1a128-db30-41d3-90d2-8db7783020e7","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700408539000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700408539000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"dc24901c-68b0-4138-8c8d-9b8494154eef","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700412941000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700412941000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"3b3f0425-d26a-4695-b436-315f7fa38240","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700413333000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700413333000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"c2733b52-4a4d-470c-85a1-349015d956bd","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700416213000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700416213000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"3212f52b-c5a0-4da3-9ffb-c9200a7c1395","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700416644000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700416644000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"17d52036-4a1b-42fb-a982-110d51195d97","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700416748000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700416748000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"6cb1fb8c-b75f-430d-89c8-e506c9df7611","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700417466000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700417466000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"1c786097-9260-4f48-8074-605c6255b468","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700417843000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700417843000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"3355ee37-db4b-4e14-9494-e70a3b6b2643","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700419009000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419009000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"a2380d55-bf2f-4beb-ab08-e6fb0fae28ae","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700419098000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419098000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"86edca87-5e45-4edb-bdb5-ef6c566e25d0","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700419271000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419271000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"98aef7bc-1cb9-4ff5-af60-d640a239f116","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700419353000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419353000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"eeebd01a-c53e-44ad-83e1-fb9f302ac3dc","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700419404000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419404000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"709a02df-63c1-4455-8fa9-3b763eb3b974","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700420231000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700420231000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"5e42b980-4fc9-4a58-b4ae-bc8a9a94f8c9","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700420351000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700420351000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1},{"applicantGuid":"968fa955-adea-4722-b959-48448349c2ab","firstName":"States","lastName":"Renter","email":"test@test.com","textingEnabled":false,"createdDate":1700420385000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700420385000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","version":1}]'
+  recorded_at: Fri, 24 Nov 2023 23:03:04 GMT
+recorded_with: VCR 6.2.0

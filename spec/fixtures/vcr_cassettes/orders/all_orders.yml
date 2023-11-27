@@ -1,0 +1,155 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96/orders
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 Nov 2023 19:26:22 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '13107'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - 106e8c54-3422-427f-b8fb-8403420b2bca
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=; Max-Age=0; Expires=Thu, 1 Jan 1970 00:00:00 GMT; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O-COtELGvHcEfqw=
+      Vary:
+      - origin,access-control-request-method,access-control-request-headers,accept-encoding
+      Cache-Control:
+      - no-store
+      X-Amzn-Remapped-Server:
+      - MMXX
+      X-Content-Type-Options:
+      - nosniff
+      Link:
+      - ''
+      X-Amzn-Remapped-Date:
+      - Sat, 25 Nov 2023 19:26:22 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"orderGuid":"be45908d-0715-4256-af42-3c3a5bcb2d15","fileNumber":576462,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700847898000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=cvrps4hebk6b35s2vtk0ifd09ekqqtm0o3hhjUrj7nfCWppUUj89DqTjGTTGocXaa0AF9TvfTJKdfj8Yz&y=576462&z=1","createdDate":1700847898000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700847899000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"75e3b769-5e66-4aed-9786-b855996dfaf0","fileNumber":576461,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700847269000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=ffuj1taoq7476irfi6atvbjhj4dmvj7b1npfqBEQYGYeJaZcJC5bWMOR4pwIma2v5OqEpneTFoRDU1zYY&y=576461&z=1","createdDate":1700847269000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700847270000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"ff117669-21e8-424c-b7c5-b6c651398ac6","fileNumber":575742,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700420389000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=q82ombl0og5uj4mpmqmvgla7qurnm94g56a8C2T29pvcDqq3IhnDFAiCMn0nfcGVFqExomMYyLUWFZklh&y=575742&z=1","createdDate":1700420389000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700420389000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"f67abf54-dc9d-43b1-a4f1-e9420c11a5d8","fileNumber":575741,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700420355000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=pagd3msmirpdrk3jo4era2u2csj21se43gron22pJYut7uk8wje2O2Kp2EUFrJ0T1JwPFHHFq7dxAoU3u&y=575741&z=1","createdDate":1700420355000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700420355000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"ce115906-be47-4f2d-b4fa-0f5133301d67","fileNumber":575740,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700420235000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=vd8f8h4a2j86i5tm37jq1p1padm0se6rvcenEBhL8JSsTIIfZWvMXkZfLaFCgcY5CynJKUjINDrVj8ddW&y=575740&z=1","createdDate":1700420235000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700420235000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"ab62b007-2b9e-4e99-9bcb-85f7d3096e2a","fileNumber":575739,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700419408000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=gje7q964tskklpolk32rro5sd6gfljdac56ipCFUcoMIfjzRWcI02qibYdFTPIGTnvRTTNQNl8bSwMg1g&y=575739&z=1","createdDate":1700419408000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419409000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"630d6d67-369c-4798-9792-45ffc665107e","fileNumber":575738,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700419357000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=5ip0m48vhmogfgu4crqef8nn6ed5obr4ni0liJqbV4TJ55iX1bqrmOJZvOWh7fPEud6n8sYO43OKfgRzf&y=575738&z=1","createdDate":1700419357000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419358000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"aa41dfc0-7fd5-4b50-8ba5-df61918c9917","fileNumber":575737,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700419275000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=p16i3lqkpteams3b05et96do7tla6m7sloc18d28R1NPKfhNOwM34sr55y2Rt7ovlLJ22SeOZ2sNnL6nW&y=575737&z=1","createdDate":1700419275000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700419276000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"fa976431-bb13-42ff-80dc-9b2e45f355e8","fileNumber":575736,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700417848000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=57quni3r3gnvm8lcan2cb1hrcuuh6t8ofe93rNYRw61cA96ipwNj58QMaiO6AyPyRd0y7rdBFen7WrSmE&y=575736&z=1","createdDate":1700417848000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700417848000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"0a31fb21-9c73-4b03-9cea-6204f6e92f61","fileNumber":575735,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700417470000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=8394vtlgqt5v1vnjo272cr1smqguqqmmfv6qgwlYOIT1kQn1oTmTwFchcDyZSnGeN0WFzWgjaekHrugSF&y=575735&z=1","createdDate":1700417470000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700417471000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"404f185d-386b-4045-9cfd-30958f13a954","fileNumber":575734,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700416752000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=os8c193n5isus4jh9khqm8et298d0ufcu1p8NmsIz2bw4E0nn8keb5fiQzBFQ6dlfDYeR8DZnIJK1lACN&y=575734&z=1","createdDate":1700416752000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700416753000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"0dc40916-a0a6-4461-b9c1-51c60a070d8d","fileNumber":575733,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700416648000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=gdqq9tn7115hvs962c87pnq5p4i7aussoojftwldEjugDOP9qtVVFp7fPgxYzG8ji6SAGVhEHkdJJS7fk&y=575733&z=1","createdDate":1700416648000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700416649000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"ba13c156-d75e-4067-8bff-ecfa96ba3398","fileNumber":575732,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700416217000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=e3gfpmoketejf3cr7hde9o80jk67i526f6354OLghKNMaOOCDvrZBlwnumVzXkIKmZilJ2d1uHSADDWJF&y=575732&z=1","createdDate":1700416217000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700416217000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"aee7f74f-f38b-4ac2-b60a-e4b225f513da","fileNumber":575731,"orderStatus":"app-pending","orderType":"Tenant","orderedDate":1700413859000,"applicantName":"RENTER,
+        STATES","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"WayHome
+        - Credit and Background Package","requestedBy":"Auto Setup Instance - Auto
+        Setup Sandbox API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=mgagsol2evtjb3c35s1hm6a7ks5e13r0jo17JmDgCE5INsqrJwnZlsoscFDbDOTV0h7zdm93Z34LkSSJO&y=575731&z=1","createdDate":1700413859000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1700413860000,"modifiedBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway "},{"orderGuid":"f0ec9cf8-a4ad-4e50-9d1f-8871e3db5a26","fileNumber":572352,"orderStatus":"complete","orderType":"Tenant","orderedDate":1698960038000,"generalReportReference":"MID-GROUP","externalIdentifier":"10001a","completedDate":1698960040000,"applicantName":"MAY,
+        LOUISE M.","clientName":"Auto Client - App Auto Setup App - Sandbox API account
+        for Rentw","clientCode":"8e89dcde-cdcb-4926-81bd-a70f381307d3","productName":"TazAPI
+        - Tenant Product","requestedBy":"Auto Setup Instance - Auto Setup Sandbox
+        API account for Rentway ","searchFlagged":false,"quickappApplicantLink":"https://lightning.instascreen.net/orderquickapp/index.taz?x=d73vjnrmga2pr42lmu5aecacin7k88cimcadEQBQxs1RnMVTUXNy3btD4AuB2eJlKey84SCdqRbG0Rfz&y=572352&z=1","createdDate":1698960038000,"createdBy":"Auto
+        Setup Instance - Auto Setup Sandbox API account for Rentway ","modifiedDate":1698960040000}]'
+  recorded_at: Sat, 25 Nov 2023 19:26:22 GMT
+recorded_with: VCR 6.2.0

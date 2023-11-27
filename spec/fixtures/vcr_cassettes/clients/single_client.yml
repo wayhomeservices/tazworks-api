@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.instascreen.net/v1/clients/34f3264e-138a-47d1-987c-f2673a569b96
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/3.2.2p53
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer <BEARER_TOKEN>
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api-sandbox.instascreen.net
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Date:
+      - Sat, 25 Nov 2023 02:38:33 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '168'
+      Connection:
+      - keep-alive
+      X-Amzn-Requestid:
+      - ce396b12-38b5-4ec0-a0da-8aeee8e711f6
+      Referrer-Policy:
+      - same-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubDomains
+      X-Amzn-Remapped-Content-Length:
+      - '168'
+      X-Amzn-Remapped-Connection:
+      - keep-alive
+      Set-Cookie:
+      - SESSION=OGYxYTcxNjAtNjEzNy00N2QzLTkxMDEtNDdjZGI3MGE2M2Ix; Path=/; Secure;
+        HttpOnly; SameSite=None
+      X-Amz-Apigw-Id:
+      - O7umdEFdvHcEGSQ=
+      Vary:
+      - Access-Control-Request-Headers
+      - Access-Control-Request-Method
+      - Origin
+      X-Amzn-Remapped-Server:
+      - MMXX
+      Cache-Control:
+      - no-store
+      X-Content-Type-Options:
+      - nosniff
+      X-Amzn-Remapped-Date:
+      - Sat, 25 Nov 2023 02:38:33 GMT
+    body:
+      encoding: UTF-8
+      string: '{"code":"NOT_AUTHORIZED","message":"This endpoint requires API type
+        [CLIENT] but Auto Setup Instance - Auto Setup Sandbox API account for Rentway  has
+        access to ORDER"}'
+  recorded_at: Sat, 25 Nov 2023 02:38:33 GMT
+recorded_with: VCR 6.2.0
