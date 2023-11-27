@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ['Peyton Smith', 'Jonathan Chan']
   spec.email = ['19peytonsmith@gmail.com', 'jonathan@rentwayhome.com']
 
-  spec.summary = 'Ruby Wrapper for Tazworks background screening API.'
+  spec.summary = 'Ruby Wrapper for Tazworks background screening TazAPI.'
   spec.homepage = 'https://github.com/wayhomeservices/tazworks-api'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 3.1'
