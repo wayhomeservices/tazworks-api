@@ -22,6 +22,12 @@ RSpec.describe Tazworks::ClientProduct do
       expect(@response.client_products.first).to be_a described_class
       expect(@response.client_products.first.ids.keys).to eql(%i[clientGuid clientProductGuid])
     end
+
+    it 'returns the proper ClientProductGuid in each object' do
+      @response.client_products.each do |cp|
+        expect(cp.clientProductGuid).to eql(cp.attributes[:clientProductGuid])
+      end
+    end
   end
 
   describe '.find' do

@@ -25,8 +25,11 @@ module Tazworks
 
       json_response = JSON.parse(raw_response.body, { symbolize_names: true })
       @collection = json_response.map do |json_object|
-        self.class.base_class.new(ids: map_individual_object_ids(@ids, json_object), attributes: json_object,
-                                  attributes_loaded: true)
+        self.class.base_class.new(
+          ids: map_individual_object_ids(deep_copy(@ids), deep_copy(json_object)),
+          attributes: json_object,
+          attributes_loaded: true
+        )
       end
     end
 
@@ -68,6 +71,12 @@ module Tazworks
 
       # scary regex to pull the parameter off the url.
       last_link[/.*page=(\d+)&.*/, 1].to_i
+    end
+
+    private
+
+    def deep_copy(o)
+      Marshal.load(Marshal.dump(o))
     end
   end
 end
