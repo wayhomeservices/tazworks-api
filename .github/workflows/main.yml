@@ -16,6 +16,9 @@ jobs:
         ruby:
           - '3.1'
           - '3.2'
+        include:
+          - ruby: '3.2'
+            coverage: '1'
 
     steps:
     - uses: actions/checkout@v3
@@ -28,7 +31,7 @@ jobs:
       run: bundle exec rake
     - name: Upload coverage results    
       uses: actions/upload-artifact@master
-      if: always()
+      if: ${{ matrix.coverage == '1' }}
       with:
         name: Coverage Report
         path: coverage
