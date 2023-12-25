@@ -4,6 +4,9 @@ Simple API wrapper implementation for Tazworks RESTful JSON Background/Credit Sc
 
 This gem implements a very limited set of endpoints that we needed for our use case. PRs welcome for expanding the number of implemented endpoints!
 
+[![Gem Version](https://badge.fury.io/rb/tazworks-api.svg)](https://badge.fury.io/rb/tazworks-api)
+[![Build Status](https://github.com/wayhomeservices/tazworks-api/actions/workflows/main.yml/badge.svg)](https://github.com/wayhomeservices/tazworks-api/actions/workflows/main.yml/badge.svg)
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
